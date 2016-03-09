@@ -1,0 +1,122 @@
+reloading configuration succeeded
+reloading zones succeeded
+validating @0x7ff804616be0: mirror.as24220.net A: no valid signature found
+validating @0x7ff80521ebd0: linux.mirrors.es.net A: no valid signature found
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 10.0.0.52#53
+no longer listening on ::1#53
+exiting
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 0.0.10.in-addr.arpa/IN: loaded serial 3
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone henogez.com/IN: loaded serial 3
+zone localhost/IN: loaded serial 0
+managed-keys-zone ./IN: loaded serial 167
+running
+zone 0.0.10.in-addr.arpa/IN: sending notifies (serial 3)
+zone henogez.com/IN: sending notifies (serial 3)
+validating @0x7fa52051ecd0: mirror.as24220.net A: no valid signature found
+validating @0x7fa5204fb5b0: linux.mirrors.es.net A: no valid signature found
+managed-keys-zone ./IN: No DNSKEY RRSIGs found for 'dlv.isc.org': success
+managed-keys-zone ./IN: No DNSKEY RRSIGs found for '.': success
+validating @0x7fa52056b570: . NS: got insecure response; parent indicates it should be secure
+error (insecurity proof failed) resolving './NS/IN': 192.33.4.12#53
+validating @0x7fa52056b570: . NS: got insecure response; parent indicates it should be secure
+error (insecurity proof failed) resolving './NS/IN': 192.112.36.4#53
+validating @0x7fa52056b570: . NS: got insecure response; parent indicates it should be secure
+error (insecurity proof failed) resolving './NS/IN': 2001:503:c27::2:30#53
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 10.0.0.52#53
+no longer listening on ::1#53
+exiting
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 0.0.10.in-addr.arpa/IN: loaded serial 3
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone henogez.com/IN: loaded serial 3
+zone localhost/IN: loaded serial 0
+managed-keys-zone ./IN: loaded serial 173
+running
+zone henogez.com/IN: sending notifies (serial 3)
+zone 0.0.10.in-addr.arpa/IN: sending notifies (serial 3)
+received control channel command 'reload'
+loading configuration from '/etc/named.conf'
+reading built-in trusted keys from file '/etc/named.iscdlv.key'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+sizing zone task pool based on 6 zones
+using built-in DLV key for view _default
+Warning: 'empty-zones-enable/disable-empty-zone' not set: disabling RFC 1918 empty zones
+reloading configuration succeeded
+reloading zones succeeded
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 10.0.0.52#53
+no longer listening on ::1#53
+exiting
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 0.0.10.in-addr.arpa/IN: loaded serial 3
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone henogez.com/IN: loaded serial 3
+zone localhost/IN: loaded serial 0
+managed-keys-zone ./IN: loaded serial 177
+running
+zone 0.0.10.in-addr.arpa/IN: sending notifies (serial 3)
+zone henogez.com/IN: sending notifies (serial 3)
+received control channel command 'reload'
+loading configuration from '/etc/named.conf'
+reading built-in trusted keys from file '/etc/named.iscdlv.key'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+sizing zone task pool based on 6 zones
+using built-in DLV key for view _default
+Warning: 'empty-zones-enable/disable-empty-zone' not set: disabling RFC 1918 empty zones
+reloading configuration succeeded
+reloading zones succeeded
+managed-keys-zone ./IN: Unable to fetch DNSKEY set 'dlv.isc.org': operation canceled
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 10.0.0.52#53
+no longer listening on ::1#53
+exiting
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 0.0.10.in-addr.arpa/IN: loaded serial 3
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone henogez.com/IN: loaded serial 3
+zone localhost/IN: loaded serial 0
+managed-keys-zone ./IN: loaded serial 185
+running
+zone henogez.com/IN: sending notifies (serial 3)
+zone 0.0.10.in-addr.arpa/IN: sending notifies (serial 3)
+received control channel command 'reload'
+loading configuration from '/etc/named.conf'
+reading built-in trusted keys from file '/etc/named.iscdlv.key'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+sizing zone task pool based on 6 zones
+using built-in DLV key for view _default
+Warning: 'empty-zones-enable/disable-empty-zone' not set: disabling RFC 1918 empty zones
+reloading configuration succeeded
+reloading zones succeeded
+dispatch 0x7fcdc847fdf0: open_socket(::#8613) -> permission denied: continuing
+error (broken trust chain) resolving 'mirror.as24220.net/A/IN': 2404:9400:1:0:216:3eff:fef0:590#53
+validating @0x7fcdc8476550: mirror.as24220.net A: no valid signature found
+validating @0x7fcdc90edca0: linux.mirrors.es.net A: no valid signature found
+error (unexpected RCODE SERVFAIL) resolving 'mirror.vcu.edu/A/IN': 128.143.2.7#53
+received control channel command 'reload'
+loading configuration from '/etc/named.conf'
+reading built-in trusted keys from file '/etc/named.iscdlv.key'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+sizing zone task pool based on 6 zones
+using built-in DLV key for view _default
+Warning: 'empty-zones-enable/disable-empty-zone' not set: disabling RFC 1918 empty zones
